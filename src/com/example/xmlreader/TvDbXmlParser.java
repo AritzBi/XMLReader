@@ -90,9 +90,9 @@ public class TvDbXmlParser {
 	
 	// Processes title tags in the feed.
 	private int readID(XmlPullParser parser) throws IOException, XmlPullParserException {
-	    parser.require(XmlPullParser.START_TAG, ns, "seriesID");
+	    parser.require(XmlPullParser.START_TAG, ns, "seriesid");
 	    int id = Integer.parseInt(readText(parser));
-	    parser.require(XmlPullParser.END_TAG, ns, "seriesID");
+	    parser.require(XmlPullParser.END_TAG, ns, "seriesid");
 	    return id;
 	}
 	 
