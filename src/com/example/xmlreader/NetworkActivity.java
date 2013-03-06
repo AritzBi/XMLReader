@@ -50,9 +50,9 @@ public class NetworkActivity extends Activity {
 
         @Override
         protected void onPostExecute(String result) {  
-            setContentView(R.layout.main);
+            setContentView(R.layout.activity_main);
             // Displays the HTML string in the UI via a WebView
-            WebView myWebView = (WebView) findViewById(R.id.webview);
+            WebView myWebView = (WebView) findViewById(R.id.webView1);
             myWebView.loadData(result, "text/html", null);
         }
     }

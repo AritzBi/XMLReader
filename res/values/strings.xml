@@ -4,5 +4,6 @@
     <string name="app_name">XmlReader</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-
+	<string name="connection_error">Error al conectarse</string>
+	<string name="xml_error">Error con el XML</string>
 </resources>
